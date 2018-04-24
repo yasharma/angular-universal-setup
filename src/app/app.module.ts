@@ -25,9 +25,9 @@ import { MessagesComponent } from "./messages/messages.component";
 @NgModule({
   imports: [
     BrowserModule.withServerTransition({ appId: "tour-of-heroes" }),
-    ServiceWorkerModule.register("/ngsw-worker.js", {
-      enabled: environment.production
-    }),
+    // ServiceWorkerModule.register("/ngsw-worker.js", {
+    //   enabled: environment.production
+    // }),
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
